@@ -1,5 +1,7 @@
-This page provides DNA sequencing analysis pipeline code, and mainly deals with preprocessing and variant calling processes.
+This page provides DNA sequencing analysis pipeline code by using "class" type and "subprocess" module in Python.
 
-This code is an exercise code I made to study the class method provide by python and DNA sequencing analysis.
+It mainly deals with preprocessing and variant calling processes.
 
-Futhermore, this code is based on the reference (https://youtu.be/6GJ3GqkUK94 / https://github.com/KennethJHan/GenomeAnalysisTutorial).
+Furthermore, this code is based on these web-sites below.
+1. https://youtu.be/6GJ3GqkUK94 
+2. https://github.com/KennethJHan/GenomeAnalysisTutorial
