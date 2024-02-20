@@ -8,7 +8,7 @@ sys.path.append("/home/pjw/Workspace/NGS/DNA_seq/")
 directory = sys.argv[1]
 ref_name = "hg38.chr21.fa"
 known_vcf_site = "hg38_v0_Homo_sapiens_assembly38.known_indels.chr21.vcf.gz"
-"""
+
 # Variant Calling
 import pipeline.Germline_calling as Germ
 
@@ -17,7 +17,7 @@ Call = Germ.Germline_calling(directory, ref_name)
 haplot = Call.HaplotypeCaller("sample.recal.bam"); sub.call(haplot, shell = True)
 
 Genotype = Call.GenotypeGVCFs("sample.g.vcf"); sub.call(Genotype, shell = True)
-"""
+
 # Annotation
 import pipeline.Annotation as Anno
 
